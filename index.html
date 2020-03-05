@@ -8,24 +8,68 @@
     <title>BlackSpaceTeam</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/Klase.php">
+
 </head>
-<body>
+<body >
+    <div class="mainBox" >
 
-    <div class="mainBox">
-        <div class="main">main</div>
-        <?php
-            $txt1 = "Learn PHP";
-            $txt2 = "W3Schools.com";
-            $x = 5;
-            $y = 4;
+        <div class="menu">
+            <ul>
+                <li><a href="index.html" class="active">Jaunumi</a></li>
+                <li><a href="galerija.html" class="active">Galerija</a></li>
+                <li><a href="galerija.html" class="active">Video gelerija</a></li>
+                <li><a href="aktieri.html" class="active">Aktieri</a></li>
+                <li><a href="kontakti.html" class="active">Kontakti</a></li>
+            </ul>
+        </div>
 
-            <h1>  Learn PHP  </h1>
-            <br> Study PHP at  . $txt2 .
-            $x + $y
-            </br>
-        ?>
+        <div class="leftMainBox">
+            <div class="mainBoxCircles">
+                <img class ="logobBanner" src="./images/logo.png" alt="paris">
+            </div>
 
+            <p class="galvenaisNosaukums">
+                BLACKSPACE
+            </p>
+        </div>
+
+        <div class="centertOval">
+            <div  class="secondCentertOval">
+                <img class ="banner" src="./images/theater.jpg" alt="paris">
+            </div>
+        </div>
+
+        <div class="rightMainBox">
+            <div class="mainBoxCircles">
+                <img class ="logobBanner" src="./images/director.jfif" alt="paris">
+            </div>
+
+            <p class="galvenaisNosaukums">
+                DIREKTORS
+            </p>
+        </div>
+
+    </div>
+
+    <div class="secondMainBox">
+
+        <h1 class="firstTitle" >Jaunākās izrādes</h1>
+
+        <div onclick="location.href='galerija.html'" style="cursor:pointer" class="autoCircles">
+            <img class ="izradesBaneris" src="./images/izrade1.jpg" alt="paris"/>
+        </div>
+
+        <div onclick="location.href='galerija.html'" style="cursor:pointer" class="autoCircles">
+            <img class ="izradesBaneris" src="./images/izrade3.jpg" alt="paris">
+        </div>
+
+        <div onclick="location.href='galerija.html'" style="cursor:pointer" class="autoCircles">
+            <img class ="izradesBaneris" src="./images/izrade2.jpg" alt="paris">
+        </div>
+
+        <p class="izradesNosaukums1">Pētera ikdiena</p>
+        <p class="izradesNosaukums2">Romas kalizejs</p>
+        <p class="izradesNosaukums3">Baltu rituāls</p>
     </div>
 
 </body>
