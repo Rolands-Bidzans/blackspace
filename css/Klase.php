@@ -1,3 +1,3 @@
 <?php
-    $esTe="klase";
+    $esTe='klase';
     echo $esTe;
