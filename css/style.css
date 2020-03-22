@@ -238,6 +238,31 @@ body::-webkit-scrollbar-thumb {
     }
 }
 
+
+@media only screen and (min-width: 400px){
+    .menu>h2{
+        font-size: 190% ;
+    }
+
+    .menu>p{
+        font-size: 100%;
+    }
+
+    .menu>ul>li{
+        font-size: 100%;
+    }
+
+    .menu>h1{
+        font-size: 200%;
+        margin-top: 15%;
+    }
+
+    .menu>swiper-container {
+        margin-top: 15%;
+    }
+}
+
+
 @media only screen and (min-width: 800px){
     .menu>h2{
         font-size: 190% ;
@@ -263,26 +288,6 @@ body::-webkit-scrollbar-thumb {
 
 }
 
-@media only screen and (min-width: 400px){
-    .menu>h2{
-        font-size: 190% ;
-    }
 
-    .menu>p{
-        font-size: 100%;
-    }
 
-    .menu>ul>li{
-        font-size: 100%;
-    }
-
-    .menu>h1{
-        font-size: 200%;
-        margin-top: 25%;
-    }
-
-    .menu>swiper-container {
-        margin-top: 15%;
-    }
-}
 
