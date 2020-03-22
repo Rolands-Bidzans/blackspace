@@ -1,181 +1,288 @@
+.swiper-container {
+    margin-top: 80px;
+    width: 100%;
+    height: 600px;
+}
+
+.mgalery{
+    width: 1000px;
+    height: 550px;
+}
+
+.swiper-slide {
+
+    /* Center slide text vertically */
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+
+
 .mainBox{
-    background-color: darkslategrey;
-    margin: 0 auto;
-    width: 1215px;
-    Height: 660px;
 
-}
-
-.leftMainBox{
-    background-color: darkslategrey;
-    float: left;
-    width: 300px;
-    Height: 530px;
-}
-
-.rightMainBox{
-
-    background-color: darkslategrey;
-    float: left;
-    width: 310px;
-    Height: 530px;
-}
-
-.mainBoxCircles{
-    background-color: black;
-    width: 200px;
-    height:200px;
-    border-radius: 50%;
-    margin-left:40px;
-    margin-top: 40px;
-    box-shadow: 0 25px 50px #000;
-}
-
-.secondMainBox{
-    background-color: darkslategrey;
-    margin: 0 auto;
-    width: 1215px;
-    Height: 600px;
-
-}
-
-.banner{
-    width: 500px;
-    height:450px;
-    border-bottom-right-radius:30%;
-    border-bottom-left-radius:30%;
-    box-shadow: 0 25px 50px #000;
-}
-
-.firstTitle{
-    font-family: Arial,serif;
-    text-align:center;
-    font-size: 80px;
-
-    color: white;
+    position: relative;
+    background-color: white;
+    width:1216px;
 }
 
 .menu{
-    background-color: rgb(109,29,12);
-    margin: 0 auto;
-    width: 900px;
-    height: 70px;
-    border-bottom-right-radius:10px;
-    border-bottom-left-radius:10px;
+    width: 90.5%;
+    margin-top: 5%;
+    margin-left: 4.5%;
+    position: absolute;
 
-}
-
-
-
-.centertOval{
-    background-color: rgb(27,27,30);
-    margin: 0 auto;
-    width: 600px;
-    height:500px;
-    border-bottom-right-radius:30%;
-    border-bottom-left-radius:30%;
-    float:left;
-}
-
-.secondCentertOval{
-
-    background-color: black;
-    margin: 0 auto;
-    width: 500px;
-    height:450px;
-    border-bottom-right-radius:30%;
-    border-bottom-left-radius:30%;
-
-}
-
-.autoCircles{
-    background-color: darkred;
-    width: 300px;
-    height:300px;
-    border-radius: 50%;
-    float:left;
-    margin-left:80px;
-    margin-top: 100px;
-    box-shadow: 0 25px 50px #000;
-}
-
-.izradesBaneris{
-    width: 300px;
-    height:300px;
-    border-radius: 50%;
 }
 
 .menu>ul>li{
-
     display:inline;
-    padding:10px 10px 10px 10px;
+    padding:10px ;
     position: relative;
-    top:20px;
-    left:90px;
+    top:40px;
+    left:4%;
     font-family: Arial,serif;
-    font-size: 30px;
+    font-size: 20px;
 
 }
 
 .menu>ul>li>a{
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
-.logobBanner{
-    width: 200px;
-    height:200px;
-    border-radius: 50%;
-    box-shadow: 0 25px 50px #000;
+.menu>h1{
+    font-family: Arial,Serif;
+    text-align: center;
+    width: 100%;
+    margin-top: 20%;
+    margin-left: 0;
+    font-size: 60px;
 }
 
-.secondCentertOval>h1{
-    font-family: Broadway,serif;
-    font-size: 16px;
-    color: white;
-    background-color: darkslategrey;
-    position: absolute;
+.menu>h2{
 
+    font-family: Arial,Serif;
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 0;
+    font-size: 30px;
 }
 
-select{
-    margin: 0 auto;
-    background-color: rgb(93,95,106);
-    width:80px;
-
-}
-
-.izradesNosaukums1{
-    font-family: Arial,serif;
-    font-size: 24px;
-    margin-top: 25px;
-    margin-left:160px;
-    color:white;
-    float:left;
-}
-
-.izradesNosaukums2{
-    font-family: Arial,serif;
-    font-size: 24px;
-    margin-top: 25px;
-    margin-left:230px;
-    color:white;
-    float:left;
-}
-
-.izradesNosaukums3{
-    font-family: Arial,serif;
-    font-size: 24px;
-    margin-top: 25px;
-    margin-left:230px;
-    color:white;
-    float:left;
-}
-
-.galvenaisNosaukums{
-    font-family: Arial,serif;
-    font-size: 20px;
-    color:White;
+.imgManu{
+    height:300px;
+    width:68%;
     margin-top: 50px;
-    margin-left:75px;
+    margin-left: 16%;
 }
+
+.button {
+    display: inline-block;
+    text-align: center;
+    width: 40%;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition-duration: 0.7s;
+    margin-left: 30%;
+}
+
+.button1 {
+    text-align: center;
+    padding: 15px 72px;
+    background-color: white;
+    color: black;
+    border: 2px solid orangered;
+    margin-top: 1%;
+}
+
+.button1:hover {
+    background-color: orangered; /* Green */
+    color: white;
+}
+
+.button2 {
+    padding: 15px 72px;
+    background-color: white;
+    color: black;
+    border: 2px solid orangered;
+    margin-top: 10%;
+}
+
+.button2:hover {
+    background-color: orangered; /* Green */
+    color: white;
+}
+
+.logoBanner{
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 70%;
+    width: 25%;
+    height: 150px;
+
+}
+
+.manuBackground{
+
+    position: absolute;
+    width: 1215px;
+    height: 700px;
+    background-image: url("/images/image3.gif");
+}
+
+.manuBackground>img{
+    margin: 0 0;
+    height:605px;
+    width: 1216px;
+    background-image: url("/images/image3.gif");
+}
+
+.menu>p{
+    font-family: Arial;
+    line-height: 1.5;
+    font-size: 18px;
+    text-space: 2px;
+    width: 56%;
+    text-align: center;
+    margin-left: 22%;
+    margin-top: 25px;
+}
+
+
+
+.centerManu {
+    position: absolute;
+    width: 90.5%;
+    margin-top: 5%;
+    margin-left: 4.5%;
+    opacity: 0.7;
+    background-color: white;
+    filter: alpha(opacity=50);
+    box-shadow: 0 0 50px #000;
+
+}
+
+.line{
+    position: relative;
+    margin-top: 55px;
+    margin-left: 50px;
+    width: 45%;
+    height: 2px;
+    background-color: orangered;
+}
+
+body::-webkit-scrollbar {
+    width: 13px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: orangered;
+    outline: 1px solid slategrey;
+}
+
+
+@media only screen and (min-width: 300px){
+    .mainBox{
+        width:100%;
+    }
+
+    .menu{
+        width: 90.5%;
+    }
+
+    .manuBackground{
+        width: 100%;
+    }
+
+    .manuBackground>img{
+        width: 100%;
+    }
+
+    .menu>h2{
+        font-size: 135% ;
+    }
+
+    .menu>h1{
+        font-size: 200%;
+        margin-top: 70%;
+    }
+
+    .menu>p{
+        font-size: 75%;
+    }
+
+
+    .menu>ul>li{
+        font-size: 75%;
+    }
+
+    .line{
+        width: 45%;
+
+    }
+
+    .button{
+        padding: 15px 22px;
+    }
+}
+
+@media only screen and (min-width: 800px){
+    .menu>h2{
+        font-size: 190% ;
+    }
+
+    .menu>p{
+        font-size: 100%;
+    }
+
+    .menu>ul>li{
+        font-size: 100%;
+    }
+
+    .menu>h1{
+        font-size: 200%;
+        margin-top: 20%;
+    }
+
+    .swiper-container {
+        margin-top: 15%;
+
+    }
+
+}
+
+@media only screen and (min-width: 400px){
+    .menu>h2{
+        font-size: 190% ;
+    }
+
+    .menu>p{
+        font-size: 100%;
+    }
+
+    .menu>ul>li{
+        font-size: 100%;
+    }
+
+    .menu>h1{
+        font-size: 200%;
+        margin-top: 25%;
+    }
+
+    .menu>swiper-container {
+        margin-top: 15%;
+    }
+}
+
