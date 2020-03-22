@@ -3,53 +3,123 @@
 <head>
     <meta charset="UTF-8">
     <title>Galerija</title>
-    <link rel="stylesheet" href="./css/style2.css">
     <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./libs/lightbox/css/lightbox.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="./libs/lightbox/js/lightbox.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        .mainBox{
+            height: 1400px;
+        }
+
+        .menu{
+            height: 1200px;
+        }
+
+        .centerManu{
+            height: 1200px;
+        }
+    </style>
 </head>
 <body>
-<div class="mainBox">
-
-    <div class="manuBackground">
-        <img  src="images/background.jfif" alt="ERROR" height="605px" width="1216" >
-    </div>
-
-    <div class="underManuBackground"></div>
-
-    <div class="centerManu"></div>
-
-    <img class ="logobBanner" src="./images/logo2.png" alt="paris">
-
-    <div class="menu">
-        <ul>
-            <li><a href="index.html" class="active">Jaunumi</a></li>
-            <li><a href="galerija.html" class="active">Galerija</a></li>
-            <li><a href="videoGalerija.html" class="active">Video gelerija</a></li>
-            <li><a href="aktieri.html" class="active">Aktieri</a></li>
-            <li><a href="kontakti.html" class="active">Kontakti</a></li>
-        </ul>
-        <div class="line"></div>
-
-        <h2>Kas mēs esam?</h2>
-
-        <div class="teksts">
-            <p>Mēs esam arhitektu un māju iekstelpu dizainieru komanda,
-                kas jau kopš 1981.gada  priecē savus klientus ne tikai ar mūstdienīgiem risinājumiem, bet arī ar labu kvalitāti. Mēs nopietni pieejam
-                pie katra klienta prasībām un vienmār esam gatavi jūs uzklausīt!
-            </p>
+    <div class="mainBox" >
+        <div class="manuBackground" >
+            <img  src="images/background.jfif" alt="ERROR" >
         </div>
 
-        <button class="button button2">Sazināties</button>
+        <div class="centerManu"></div>
+        <img class ="logoBanner" src="./images/logo2.png" alt="logo2">
+        <div class="menu">
+            <ul>
+                <li><a href="index.html" class="active">Jaunumi</a></li>
+                <li><a href="galerija.html" class="active">Galerija</a></li>
+                <li><a href="parkompaniju.html" class="active">Par mums</a></li>
+                <li><a href="kontakti.html" class="active">Kontakti</a></li>
+            </ul>
+
+            <div class="line"></div>
+
+            <h2>Mūsu realizetie projekti</h2>
 
 
-        <h1>Aktualitātes</h1>
-        <img  class="imgManu" src="images/background3.jfif" alt="ERROR"  >
-        <button class="button button1">Apskatīt</button>
+            <p>Zemak jūs variet apskatīt vairaku daļu mūsu uzkonstruetu un izveidotu dizainu realizacijas bildes, ja gribiet uzzinat vairak,
+                par kadu no mūsu realizetajiem projektiem vai arī ja Jūs velaties, lai mes izveidotu kadu dizainu jums, nebaidieties un drosi spiediet
+                pogu "Sazinaties".
+            </p>
 
-        <img  class="imgManu" src="images/background4.jfif" alt="ERROR"  >
-        <button class="button button1">Apskatīt</button>
+            <button class="button button2">Sazināties</button>
+
+            <div class="swiper-container">
+
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="./images/house1.jfif" data-lightbox="galery-set">
+                            <img src="./images/house1.jfif" alt="" class="mgalery">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+
+                        <a href="./images/house2.jfif" data-lightbox="galery-set">
+                            <img src="./images/house2.jfif" alt="" class="mgalery">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="./images/house3.jfif" data-lightbox="galery-set">
+                            <img src="./images/house3.jfif" alt="" class="mgalery">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="./images/house4.jfif" data-lightbox="galery-set">
+                            <img src="./images/house4.jfif" alt="" class="mgalery">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="./images/house5.jfif" data-lightbox="galery-set">
+                            <img src="./images/house5.jfif" alt="" class="mgalery">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="./images/house6.jfif" data-lightbox="galery-set">
+                            <img src="./images/house6.jfif" alt="" class="mgalery">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="./images/house7.jfif" data-lightbox="galery-set">
+                            <img src="./images/house7.jfif" alt="" class="mgalery">
+                        </a>
+                    </div>
+                </div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
     </div>
 
+    <script src="../blackspaceteam/js/swiper.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            cssMode: true,
 
-</div>
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            pagination: {
+                el: '.swiper-pagination'
+            },
+            mousewheel: true,
+            keyboard: true,
+        });
+    </script>
+
+
 </body>
 </html>
