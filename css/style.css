@@ -1,12 +1,72 @@
 .swiper-container {
-    margin-top: 80px;
+    margin-top: 120px;
     width: 100%;
     height: 600px;
+}
+
+main{
+    background-color: white;
+    width: 1216px;
+    position: relative;
 }
 
 .mgalery{
     width: 1000px;
     height: 550px;
+}
+
+
+.bootomMenu{
+    height: 60px;
+    margin-left: 0;
+    background-color: orangered;
+    width: 100%;
+    position: absolute;
+}
+.login{
+    position: relative;
+    margin: 60px 70px 0px 70px;
+}
+
+#uname{
+    border: 2px;
+    border-color: orangered;
+    border-style: solid;
+    width: 400px;
+    height: 30px;
+}
+
+#lpassword{
+    border: 2px;
+    border-color: orangered;
+    border-style: solid;
+    width: 400px;
+    height: 30px;
+}
+
+label{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.bootomMenu>ul {
+    margin-top: 1.5%;
+    text-align: center;
+    width: 100%;
+}
+
+.bootomMenu>ul>li{
+    display:inline;
+    position: relative;
+    font-family: Arial,serif;
+    font-size: 20px;
+}
+
+.bootomMenu>ul>li>a{
+    margin-left: 40px;
+    color: white;
+    text-decoration: none;
 }
 
 .swiper-slide {
@@ -27,21 +87,22 @@
     align-items: center;
 }
 
-
-
-.mainBox{
-
-    position: relative;
-    background-color: white;
-    width:1216px;
-}
-
-.menu{
+.centerBox{
     width: 90.5%;
     margin-top: 5%;
     margin-left: 4.5%;
     position: absolute;
+    background-color: rgba(256,256,256,0.6);
+    filter: alpha(opacity=50);
+    box-shadow: 0 0 50px #000;
 
+}
+
+.menu{
+    width: 100%;
+    margin-top: 0;
+    margin-left: 0;
+    position: relative;
 }
 
 .menu>ul>li{
@@ -64,7 +125,7 @@
     font-family: Arial,Serif;
     text-align: center;
     width: 100%;
-    margin-top: 20%;
+    margin-top: 5%;
     margin-left: 0;
     font-size: 60px;
 }
@@ -73,7 +134,7 @@
 
     font-family: Arial,Serif;
     text-align: center;
-    margin-top: 60px;
+    margin-top: 10%;
     margin-left: 0;
     font-size: 30px;
 }
@@ -126,11 +187,10 @@
 }
 
 .logoBanner{
-    position: absolute;
-    margin-top: 3%;
-    margin-left: 70%;
-    width: 25%;
-    height: 150px;
+    margin-left: 30%;
+
+    width: 40%;
+    position: relative;
 
 }
 
@@ -139,7 +199,6 @@
     position: absolute;
     width: 1215px;
     height: 700px;
-    background-image: url("/images/image3.gif");
 }
 
 .manuBackground>img{
@@ -162,19 +221,7 @@
 
 
 
-.centerManu {
-    position: absolute;
-    width: 90.5%;
-    margin-top: 5%;
-    margin-left: 4.5%;
-    opacity: 0.7;
-    background-color: white;
-    filter: alpha(opacity=50);
-    box-shadow: 0 0 50px #000;
-
-}
-
-.line{
+.menu hr{
     position: relative;
     margin-top: 55px;
     margin-left: 50px;
@@ -194,12 +241,18 @@ body::-webkit-scrollbar-thumb {
 
 
 @media only screen and (min-width: 300px){
-    .mainBox{
-        width:100%;
+
+    main{
+        width: 100%;
+    }
+
+    .centerBox{
+        margin-top: 5%;
+        width: 90.5%;
     }
 
     .menu{
-        width: 90.5%;
+        width: 100%;
     }
 
     .manuBackground{
@@ -211,26 +264,17 @@ body::-webkit-scrollbar-thumb {
     }
 
     .menu>h2{
+        margin-top: 10%;
         font-size: 135% ;
     }
 
     .menu>h1{
         font-size: 200%;
-        margin-top: 70%;
+        margin-top: 5%;
     }
-
-    .menu>p{
-        font-size: 75%;
-    }
-
 
     .menu>ul>li{
         font-size: 75%;
-    }
-
-    .line{
-        width: 45%;
-
     }
 
     .button{
@@ -241,12 +285,10 @@ body::-webkit-scrollbar-thumb {
 
 @media only screen and (min-width: 400px){
     .menu>h2{
+        margin-top: 20%;
         font-size: 190% ;
     }
 
-    .menu>p{
-        font-size: 100%;
-    }
 
     .menu>ul>li{
         font-size: 100%;
@@ -254,22 +296,23 @@ body::-webkit-scrollbar-thumb {
 
     .menu>h1{
         font-size: 200%;
-        margin-top: 15%;
+        margin-top: 5%;
     }
 
     .menu>swiper-container {
         margin-top: 15%;
+    }
+
+    .menu hr {
+        width: 70%;
     }
 }
 
 
 @media only screen and (min-width: 800px){
     .menu>h2{
+        margin-top: 15%;
         font-size: 190% ;
-    }
-
-    .menu>p{
-        font-size: 100%;
     }
 
     .menu>ul>li{
@@ -278,14 +321,16 @@ body::-webkit-scrollbar-thumb {
 
     .menu>h1{
         font-size: 200%;
-        margin-top: 20%;
+        margin-top: 5%;
     }
 
-    .swiper-container {
-        margin-top: 15%;
-
+    .swiper-container{
+        width: 100%;
     }
 
+    .menu hr {
+     width: 45%;
+    }
 }
 
 
