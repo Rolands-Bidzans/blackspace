@@ -1,7 +1,151 @@
+header{
+    height: 50px;
+    background-color: orangered;
+}
+
+iframe{
+    width:1000px ;
+    height: 450px;
+}
+
+.cont_container iframe{
+    width: 90%;
+    display: inherit;
+    margin: 0 auto;
+}
+
+.info_contact{
+    text-align: center;
+    margin: 270px auto 50px auto;
+    width: 100%;
+    height: 200px;
+}
+
+
+.cont_container{
+    margin: 230px auto;
+}
+
+.cont_container p{
+    font-size: 18px;
+}
+
+.cont_container h3{
+    font-size: 40px;
+    margin-bottom: 20px;
+
+}
+
+.iframe_container{
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+
+.iframe_container iframe{
+
+    width: 60%;
+    height: 300px;
+    text-align: center;
+    margin: 60px auto 30px auto;
+}
+.cont_container h1{
+    font-size: 60px;
+    margin: auto;
+}
+.iframe_container h1{
+    margin: 60px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+
+.iframe_container p{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    font-size: 18px;
+    text-space: 2px;
+    text-align: center;
+    margin: 5px 28%;
+
+}
+
+.menu2{
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 70px;
+    margin: 0;
+    list-style-type: none;
+}
+
+.menu2 .menu_link{
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.menu2 .menu_item{
+    border-right: 2px dotted black;
+    padding-right: 28px;
+}
+
+.subheader{
+    height: 84px;
+    background-color: rgba(255, 235, 185, 0.89);
+}
+.row img{
+    display: block;
+    max-width: 900px;
+    max-height: 300px;
+    margin: 60px auto 40px auto;
+}
+.promo{
+    text-align: center;
+}
+.promo .promo_header{
+    color: black;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 60px;
+}
+
+.promo .promo_btn{
+    display: block;
+    margin: 40px auto 50px auto;
+    width: 259px;
+    height: 64px;
+    box-shadow: inset 0 -4px 0 rgba(0,0,0,0.6);
+    border:none;
+    border-radius: 4px;
+    background-image: linear-gradient(to top, #ff230b 0%, #ff4500 10%);
+}
+
+.subheader img{
+    width: 200px;
+    height: 85px;
+}
 .swiper-container {
     margin-top: 120px;
     width: 100%;
     height: 600px;
+}
+
+
+
+.lbut{
+    color: orangered;
+}
+
+.lbut:hover{
+    background-color: orangered;
+}
+
+.map{
+    margin-left: 20px;
+    margin-top: 25%;
 }
 
 main{
@@ -23,32 +167,6 @@ main{
     width: 100%;
     position: absolute;
 }
-.login{
-    position: relative;
-    margin: 60px 70px 0px 70px;
-}
-
-#uname{
-    border: 2px;
-    border-color: orangered;
-    border-style: solid;
-    width: 400px;
-    height: 30px;
-}
-
-#lpassword{
-    border: 2px;
-    border-color: orangered;
-    border-style: solid;
-    width: 400px;
-    height: 30px;
-}
-
-label{
-    font-size: 20px;
-    font-weight: bold;
-    text-align: center;
-}
 
 .bootomMenu>ul {
     margin-top: 1.5%;
@@ -59,7 +177,7 @@ label{
 .bootomMenu>ul>li{
     display:inline;
     position: relative;
-    font-family: Arial,serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
 }
 
@@ -87,6 +205,11 @@ label{
     align-items: center;
 }
 
+.dropdown-item{
+    background-color: red;
+    display: inline;
+}
+
 .centerBox{
     width: 90.5%;
     margin-top: 5%;
@@ -105,13 +228,22 @@ label{
     position: relative;
 }
 
+.izmers{
+    width: 500px;
+}
+
+.form-center{
+    width: 700px;
+    margin:100px 300px;
+}
+
 .menu>ul>li{
     display:inline;
     padding:10px ;
     position: relative;
     top:40px;
     left:4%;
-    font-family: Arial,serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
 
 }
@@ -122,7 +254,7 @@ label{
 }
 
 .menu>h1{
-    font-family: Arial,Serif;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     width: 100%;
     margin-top: 5%;
@@ -132,7 +264,7 @@ label{
 
 .menu>h2{
 
-    font-family: Arial,Serif;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     margin-top: 10%;
     margin-left: 0;
@@ -173,6 +305,7 @@ label{
     color: white;
 }
 
+
 .button2 {
     padding: 15px 72px;
     background-color: white;
@@ -205,11 +338,10 @@ label{
     margin: 0 0;
     height:605px;
     width: 1216px;
-    background-image: url("/images/image3.gif");
 }
 
 .menu>p{
-    font-family: Arial;
+    font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
     font-size: 18px;
     text-space: 2px;
@@ -240,7 +372,64 @@ body::-webkit-scrollbar-thumb {
 }
 
 
-@media only screen and (min-width: 300px){
+@media only screen and (min-width: 700px){
+
+    main{
+        width: 100%;
+    }
+
+    .mgalery{
+        width: 85%;
+        margin-left: 8%;
+    }
+    .centerBox{
+        margin-top: 5%;
+        width: 90.5%;
+    }
+
+    .menu{
+        width: 100%;
+    }
+
+    .manuBackground{
+        width: 100%;
+    }
+
+    .manuBackground>img{
+        width: 100%;
+    }
+
+    .menu>h2{
+        margin-top: 20%;
+        font-size: 135% ;
+    }
+
+    .menu>h1{
+        font-size: 200%;
+        margin-top: 5%;
+    }
+
+    .menu>ul>li{
+        font-size: 75%;
+    }
+
+    .button{
+        padding: 15px 22px;
+    }
+
+    .form-center{
+        margin-left: 25%;
+        width: 50%;
+    }
+
+    .izmers{
+        width: 100%;
+    }
+
+}
+
+
+@media only screen and (min-width: 1000px){
 
     main{
         width: 100%;
@@ -280,59 +469,11 @@ body::-webkit-scrollbar-thumb {
     .button{
         padding: 15px 22px;
     }
+
+    .form-center{
+        margin-left: 25%;
+        width: 50%;
+    }
+
+
 }
-
-
-@media only screen and (min-width: 400px){
-    .menu>h2{
-        margin-top: 20%;
-        font-size: 190% ;
-    }
-
-
-    .menu>ul>li{
-        font-size: 100%;
-    }
-
-    .menu>h1{
-        font-size: 200%;
-        margin-top: 5%;
-    }
-
-    .menu>swiper-container {
-        margin-top: 15%;
-    }
-
-    .menu hr {
-        width: 70%;
-    }
-}
-
-
-@media only screen and (min-width: 800px){
-    .menu>h2{
-        margin-top: 10%;
-        font-size: 190% ;
-    }
-
-    .menu>ul>li{
-        font-size: 100%;
-    }
-
-    .menu>h1{
-        font-size: 200%;
-        margin-top: 5%;
-    }
-
-    .swiper-container{
-        width: 100%;
-    }
-
-    .menu hr {
-     width: 45%;
-    }
-}
-
-
-
-
